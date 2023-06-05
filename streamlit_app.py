@@ -3,6 +3,7 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import platform
 
 """
 # Welcome to Streamlit!
@@ -14,6 +15,8 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+
+st.write(platform.platform())
 
 
 with st.echo(code_location='below'):
